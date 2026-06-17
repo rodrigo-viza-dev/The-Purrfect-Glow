@@ -54,16 +54,5 @@
   },
   "engines": {
     "node": ">=20.12.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "@auth/core": "0.41.1"
-    },
-    "onlyBuiltDependencies": [
-      "@prisma/client",
-      "@prisma/engines",
-      "bcrypt",
-      "prisma"
-    ]
   }
 }

@@ -47,3 +47,4 @@ DEPLOY_INSTRUCTIONS.md
 QUICK_DEPLOY_GUIDE.md
 prisma/seed.ts
 src/app/debug/
+.env*

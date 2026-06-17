@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import BottomNavigation from './components/BottomNavigation';
 import FloatingSocialButtons from './components/FloatingSocialButtons';
+import Footer from './components/Footer';
 
 export default function LandingLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -14,6 +15,9 @@ export default function LandingLayout({ children }: { children: React.ReactNode 
         <div className="pt-20 lg:pt-24">
           {children}
         </div>
+
+        {/* Footer */}
+        <Footer />
 
         {/* Mobile: padding bottom for bottom navigation */}
         <div className="h-24 lg:h-0" />

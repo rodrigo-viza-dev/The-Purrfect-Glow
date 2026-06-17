@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     icon: '/PurrfectGlowGatoIcon.png',
     apple: '/PurrfectGlowGatoIcon.png',
   },
+  verification: {
+    google: 'AQUÍ_VA_TU_CÓDIGO_DE_VERIFICACIÓN_DE_GOOGLE',
+  },
   openGraph: {
     title: 'Descubre The Purrfect Glow: Cuidado Coreano de Calidad',
     description: 'Descubre cuidado de la piel coreano de alta calidad y cuida cualquier tipo de piel con productos K-Beauty populares y efectivos.',
